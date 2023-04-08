@@ -8,7 +8,7 @@ jobs:
           password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
-      - run: eco "A first hello"
+      - run: echo "A first hello"
       - run: sleep 25
   two:
     docker:
